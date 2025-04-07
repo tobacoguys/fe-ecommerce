@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
     const menuList = [
         {
@@ -16,6 +18,13 @@ export default function Header() {
     return (
         <nav className="py-4 px-14 border-b">
             <img className="h-9" src="/logo.png" alt="" />
+            <div>
+                {menuList?.map((item)=>{
+                    return <Link href={item?.link}>
+                        <button>{item?.name}</button>
+                    </Link>
+                })}
+            </div>
         </nav>
     );
 }
