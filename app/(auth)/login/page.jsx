@@ -17,6 +17,13 @@ export default function Login() {
                             id="user-email"
                             className="px-3 py-2 rounded border focus:outline-none w-full"
                         />{""}
+                        <input 
+                            placeholder="Enter you password" 
+                            type="password" 
+                            name="user-password" 
+                            id="user-password"
+                            className="px-3 py-2 rounded border focus:outline-none w-full"
+                        />{""}
                     </form>
                 </div>
             </section>
