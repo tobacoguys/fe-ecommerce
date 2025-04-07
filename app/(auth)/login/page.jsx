@@ -33,6 +33,13 @@ export default function Login() {
                             Login
                         </Button>
                     </form>
+                    <div>
+                        <Link href={`/forget-password`}>
+                            <button className="font-semibold text-sm text-blue-700">
+                                Forget Password?
+                            </button>
+                        </Link>
+                    </div>
                     <hr />
                         <Button className="bg-gray-300 hover:bg-gray-700 py-2 px-4 rounded-xl">
                             Sign In With Google
