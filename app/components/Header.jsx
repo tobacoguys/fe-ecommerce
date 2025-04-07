@@ -25,6 +25,9 @@ export default function Header() {
                     </Link>
                 })}
             </div>
+            <Link href={"/login"}>
+                <button className="bg-blue-600 px-3 py-2 rounded-full text-white">Login</button>
+            </Link>
         </nav>
     );
 }
