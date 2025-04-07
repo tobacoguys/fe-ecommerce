@@ -33,7 +33,12 @@ export default function Login() {
                             Login
                         </Button>
                     </form>
-                    <div>
+                    <div className="flex justify-between">
+                        <Link href={`/sign-up`}>
+                            <button className="font-semibold text-sm text-blue-700">
+                                Create Account
+                            </button>
+                        </Link>
                         <Link href={`/forget-password`}>
                             <button className="font-semibold text-sm text-blue-700">
                                 Forget Password?
