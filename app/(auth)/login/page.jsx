@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function Login() {
     return (
@@ -32,6 +33,10 @@ export default function Login() {
                             Login
                         </Button>
                     </form>
+                    <hr />
+                        <Button className="bg-gray-300 hover:bg-gray-700 py-2 px-4 rounded-xl">
+                            Sign In With Google
+                        </Button>
                 </div>
             </section>
         </main>
