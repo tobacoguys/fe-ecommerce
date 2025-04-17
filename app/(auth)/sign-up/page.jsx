@@ -32,6 +32,13 @@ export default function Page(){
                                 id="user-password"
                                 className="px-3 py-2 rounded-xl border focus:outline-none w-full"
                             />
+                            <input
+                                placeholder="Confirm your password"
+                                type="password"
+                                name="user-password-confirm"
+                                id="user-password-confirm"
+                                className="px-3 py-2 rounded-xl border focus:outline-none w-full"
+                            />
                     </form>
                 </div>
             </section>
