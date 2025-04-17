@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function Page(){
     return (
@@ -47,6 +48,13 @@ export default function Page(){
                                 Sign Up
                             </Button>
                     </form>
+                    <div className="flex justify-between">
+                        <Link href={`/login`}>
+                            <button className="font-semibold text-sm text-blue-700">
+                                Already user? Login
+                            </button>
+                        </Link>
+                    </div>
                 </div>
             </section>
         </main>
