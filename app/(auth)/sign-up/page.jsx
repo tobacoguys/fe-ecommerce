@@ -1,3 +1,7 @@
+"use client";
+
+import { Button } from "@nextui-org/react";
+
 export default function Page(){
     return (
         <main className="w-full flex justify-center items-center bg-gray-300 md:p-24 min-h-screen ">
@@ -39,6 +43,9 @@ export default function Page(){
                                 id="user-password-confirm"
                                 className="px-3 py-2 rounded-xl border focus:outline-none w-full"
                             />
+                            <Button color="primary" className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-xl">
+                                Sign Up
+                            </Button>
                     </form>
                 </div>
             </section>
