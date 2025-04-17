@@ -10,6 +10,29 @@ export default function Page(){
                     <h1 className="font-bold text-xl">
                         Sign Up With Email
                     </h1>
+                    <form className="flex flex-col gap-3">
+                            <input
+                                placeholder="Enter your Name"
+                                type="text"
+                                name="user-name"
+                                id="user-name"
+                                className="px-3 py-2 rounded-xl border focus:outline-none w-full"
+                            />
+                            <input
+                                placeholder="Enter your email"
+                                type="email"
+                                name="user-email"
+                                id="user-email"
+                                className="px-3 py-2 rounded-xl border focus:outline-none w-full"
+                            />
+                            <input
+                                placeholder="Enter your password"
+                                type="password"
+                                name="user-password"
+                                id="user-password"
+                                className="px-3 py-2 rounded-xl border focus:outline-none w-full"
+                            />
+                    </form>
                 </div>
             </section>
         </main>
